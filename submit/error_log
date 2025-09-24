@@ -1,0 +1,5 @@
+[10-Dec-2019 14:02:34 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dzinaish/climax_tech/gwerurealestate.co.zw/submit/login.php on line 6
+[11-Dec-2019 10:59:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dzinaish/climax_tech/gwerurealestate.co.zw/submit/index.php on line 9
+[16-Dec-2019 12:06:23 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dzinaish/climax_tech/gwerurealestate.co.zw/submit/index.php on line 9
+[16-Dec-2019 15:22:01 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dzinaish/climax_tech/gwerurealestate.co.zw/submit/index.php on line 9
+[17-Dec-2019 06:41:44 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/dzinaish/climax_tech/gwerurealestate.co.zw/submit/index.php on line 9
