@@ -1,62 +1,69 @@
-# 🏠 Stand Application and Allocation System (PHP)
+# EstatePro
+
+Stand application and allocation system.
+
 [![PHP](https://img.shields.io/badge/PHP-7.4-blue)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)](https://www.mysql.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-A **web-based application** that automates stand allocation based on user bids. After the application deadline, the system automatically awards the stand to the **highest bidder**. Built with PHP and MySQL, designed to expand into a full real estate platform.
+---
 
-## 🌟 Features
+## Overview
+
+A web application that automates the process of applying for stands and allocating them based on submitted bids. After the application deadline, the system awards the stand to the highest bidder. Built with PHP and MySQL, designed to expand into a full real estate management platform.
+
+---
+
+## Features
+
 - User registration and login
-- Apply for stands and submit bids
+- Stand listings with application and bidding
 - Automatic allocation to highest bidder after deadline
-- Admin panel to monitor applications and sales
-- Modular design ready for future expansion (houses, rentals)
+- Admin panel for monitoring applications, bids, and allocations
+- Modular structure ready for houses, rentals, and analytics
 
-## 🛠️ Technologies
-| Frontend         | Backend      | Database |
-|------------------|--------------|----------|
-| HTML / CSS / JS  | PHP          | MySQL    |
-| Bootstrap (opt)  |              |          |
+---
 
-## 💻 Screenshots
+## Screenshots
+
 | Home | Dashboard | Listing |
 |------|-----------|---------|
-| ![Home Page](screenshots/home.png) | ![Dashboard](screenshots/stands.png) | ![Listing](screenshots/listing.png) |
+| ![Home](screenshots/home.png) | ![Dashboard](screenshots/stands.png) | ![Listing](screenshots/listing.png) |
 
+<img src="screenshots/houses.png" alt="Houses" width="400" />
 
-## 🚀 Setup Instructions
-1. Clone the repository:
-```bash
-git clone https://github.com/elisharukovo/estatepro.git
-```
+---
 
-2. Import the database:
-```bash
-estatepro.sql
-```
+## Setup
 
-3. Configure `config.php` with database credentials.
+1. Clone the repository
+   ```bash
+   git clone https://github.com/elisharukovo/estatepro.git
+   ```
 
-4. Start a local server (XAMPP, WAMP, or Laragon).
+2. Import the database
+   ```
+   estatepro.sql
+   ```
 
-5. Open in browser:
-```
-http://localhost/estatepro
-```
+3. Configure `config.php` with your database credentials
 
-## 🤝 Contributing
-- Complete the house selling module  
-- Improve bidding and allocation algorithms  
-- Enhance UI/UX  
-- Add security and validation improvements  
+4. Start a local server (XAMPP or similar) and open
+   ```
+   http://localhost/estatepro
+   ```
 
-## 📅 Roadmap
-- [ ] House selling module  
-- [ ] Mobile-friendly interface  
-- [ ] Email notifications for winners  
-- [ ] Analytics dashboard  
+---
 
-<img src="screenshots/houses.png" alt="Houses" width="400"/>
+## Roadmap
 
-## 📄 License
-MIT License
+- House selling module
+- Email notifications for allocation winners
+- Mobile-friendly interface
+- Analytics dashboard
+
+---
+
+## License
+
+MIT
